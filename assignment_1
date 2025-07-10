@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      background-color: #faebd7; /* Light cream */
+    }
+
+    .header {
+      background-color: red;
+      height: 100px;
+      margin: 10px 10px 0 10px; /* Top spacing only */
+    }
+
+    .pink-container {
+      background-color: #fddbcc; /* Baby pink */
+      margin: 0 10px 10px 10px; /* No top margin */
+      padding: 15px;
+    }
+
+    .main-title {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .aqua-wrapper {
+      background-color: aquamarine;
+      padding: 40px 15px; /* Vertical space preserved */
+      width: 95%;  /* ✅ Almost full width */
+      margin: 0 auto;
+    }
+
+    .container {
+      background-color: cadetblue;
+      height: 300px;
+      position: relative;
+    }
+
+    .left-box {
+      background-color: blue;
+      width: 40%;
+      height: 100%;
+      float: left;
+    }
+
+    .yellow-box {
+      background-color: yellow;
+      width: 10%;
+      height: 25%;
+      position: absolute;
+      left: 40%;
+      top: 0;
+    }
+
+    .green-box {
+      background-color: yellowgreen;
+      width: 10%;
+      height: 25%;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header"></div>
+
+  <div class="pink-container">
+    <div class="main-title">Main Content</div>
+
+    <div class="aqua-wrapper">
+      <div class="container">
+        <div class="left-box"></div>
+        <div class="yellow-box"></div>
+        <div class="green-box"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
